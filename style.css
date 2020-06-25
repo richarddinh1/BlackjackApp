@@ -1,0 +1,60 @@
+body {
+    background-image:url('https://www.downtowngrand.com/wp-content/uploads/2018/10/blackjack-1600x891.jpg');
+}
+
+#container {
+    text-align: center;
+    margin-top: 10%;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'PT Sans';
+    color: wheat;
+}
+
+p {
+    font-size: 40px;
+    font-family: 'PT Sans';
+    color: wheat;
+}
+
+button {
+    font-size: 40px;
+    font-family: 'PT Sans';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: linear-gradient(gold, wheat);
+    color: #654321;
+}
+
+#new-game-button {
+    margin-top: 20px;
+}
+
+#hit-button {
+    margin-right: 10px
+}
+
+#stay-button {
+    margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-image: url('https://djxhh4yqhymvs.cloudfront.net/Offer/17973/5203736c-02db-48f9-a2a9-3882410bb2a6fd832eb2-fcc0-4be7-adc0-8f187642e5ddoffer-jpg@500px.jpg');
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        color: wheat;
+    }
+
+    p {
+        color: wheat;
+    }
+}
